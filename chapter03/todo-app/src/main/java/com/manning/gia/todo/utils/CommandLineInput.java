@@ -4,7 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public enum CommandLineInput {
-    FIND_ALL('a'), FIND_BY_ID('f'), INSERT('i'), UPDATE('u'), DELETE('d'), EXIT('e');
+    
+    FIND_ALL('a'),
+    FIND_BY_ID('f'),
+    INSERT('i'),
+    UPDATE('u'),
+    DELETE('d'),
+    EXIT('e');
 
     private final static Map<Character, CommandLineInput> INPUTS;
 
